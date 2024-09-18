@@ -1,0 +1,84 @@
+/* Estilo global para el cuerpo del documento */
+body {
+    background-color: #f0f0f0; /* Fondo suave */
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0;
+}
+
+/* Estilo para la tarjeta contenedora */
+.card {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 40px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto flotante */
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 24px; /* Tamaño del texto */
+    color: #333; /* Texto oscuro */
+    margin-bottom: 20px;
+}
+
+/* Estilo para el párrafo */
+p {
+    font-size: 14px;
+    color: #666; /* Color de texto secundario */
+    margin-bottom: 30px;
+}
+
+/* Estilo para los campos de entrada */
+input {
+    width: 100%; /* Llenar todo el ancho disponible */
+    padding: 12px; /* Espaciado interno */
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #007BFF; /* Cambiar color de borde al enfocar */
+    outline: none;
+}
+
+/* Estilo para el botón */
+button {
+    width: 100%; /* Llenar todo el ancho disponible */
+    padding: 12px;
+    background-color: #007BFF; /* Fondo azul elegante */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Fondo más oscuro al pasar el ratón */
+}
+
+/* Estilo para el div de resultados */
+.result {
+    margin-top: 30px; /* Espacio superior */
+    font-weight: bold; /* Texto en negrita */
+    color: #333; /* Texto oscuro */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Fondo gris suave */
+    border: 1px solid #ddd; /* Borde suave */
+}
